@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.21)
+project(Lab10_TPP LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+find_package(SqliteOrm CONFIG REQUIRED)
+find_package(unofficial-sqlite3 CONFIG REQUIRED)
+enable_testing()
+add_subdirectory(Lab10_TPP)
